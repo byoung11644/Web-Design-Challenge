@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="bg-light">
 
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Latitude</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand p-3 mb-2 bg-info text-white" href="#">Latitude</a>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="navbar-collapse collapse" id="collapsingNavbar">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots
                         </a>
@@ -42,7 +42,7 @@
         <div class="row">
             <div class="col-sm-6 col-md-4">
             <div class="box white">
-                <header>Summary: Latitude vs. X
+                <header class="text-info font-weight-bold h-75 d-inline-block">Summary: Latitude vs. X
                 </header>
                     <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
                     </p>
